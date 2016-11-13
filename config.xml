@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Ecorp</name>
+
+    <description>
+        Testing Ecorp app
+    </description>
+
+    <author>
+        Sebastian L/ Jorge A.V
+    </author>
+    
+    <access origin="*" browserOnly="true"/>
+    
+    <!-- <preference name="SplashScreen" value="10000" /> -->
+    <preference name="SplashScreenDelay" value="3500" />
+    <preference name="show-splash-screen-spinner" value="true" />  
+    <preference name="auto-hide-splash-screen" value="true" />    
+
+    <feature name="http://api.phonegap.com/1.0/device"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+
+    <!-- plugin de un tercero -->
+    <plugin name="com.brodysoft.sqliteplugin" spec="1.0.6" source="pgb" />
+    
+    <plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" />
+    <plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
+    <plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
+    <plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
+    <plugin name="org.apache.cordova.media" spec="0.2.16" source="pgb" />
+    <plugin name="org.apache.cordova.media-capture" spec="0.3.6" source="pgb" />
+    <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />
+
+    <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="res/android/splash-land-hdpi.png" density="land-hdpi"/>
+    <splash src="res/android/splash-land-ldpi.png" density="land-ldpi"/>
+    <splash src="res/android/splash-land-mdpi.png" density="land-mdpi"/>
+    <!-- <splash src="res/android/splash-land-xhdpi.png" density="land-xhdpi"/> -->
+</platform>
+    
+
+</widget>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/validar.js"></script>
+    <script src="js/ajax.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Contacto</title>
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    <script type='text/javascript'>
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/59812024/300*250', [300, 250], 'div-gpt-ad-1457360282635-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+</head>
+
+<body>
+
+
+
+    <!-- /59812024/300*250 -->
+    <div id='div-gpt-ad-1457360282635-0' style='height:250px; width:300px; display: inline-block; float: right; top: 100px;'>
+        <script type='text/javascript'>
+            googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-1457360282635-0');
+            });
+        </script>
+    </div>
+
+
+    <div class="contenedor-formulario" style="top: 100px;">
+        <div class="wrap">
+            <form  class="formulario" name="formulario_registro" >
+                <div>
+                    <div class="input-group">
+                        <input type="text" id="nombre" name="nombre">
+                        <label class="label" for="nombre">Nombre:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="correo" name="correo">
+                        <label class="label" for="correo">Correo:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="telefono" name="telefono">
+                        <label class="label" for="telefono">Telefono:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ciudad" name="ciudad">
+                        <label class="label" for="ciudad">Ciudad:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="direccion" name="direccion">
+                        <label class="label" for="direccion">Direccion:</label>
+                    </div>
+                    <div class="input-group radio">
+                        <input type="radio" name="tipo_doc" id="CC" value="CC">
+                        <label for="CC">Cedula</label>
+                        <input type="radio" name="tipo_doc" id="TI" value="TI">
+                        <label for="TI">Tarjeta De Identidad</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="documento" name="documento">
+                        <label class="label" for="documento">Documento:</label>
+                    </div>
+                    <div class="input-group radio">
+                        <input type="radio" name="sexo" id="hombre" value="Hombre">
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" id="mujer" value="Mujer">
+                        <label for="mujer">Mujer</label>
+                    </div>
+                    <div class="input-group checkbox">
+                        <input type="checkbox" name="terminos" id="terminos" value="true">
+                        <label for="terminos">Acepto los Terminos y Condiciones</label>
+                    </div>
+
+                    <input onclick="registrarAjax();" type="submit" id="btn-submit">
+                   
+                </div>
+            </form>
+
+             <button onclick="registrarAjax();"> otro btn</button>
+        </div>
+    </div>
+
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>

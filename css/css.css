@@ -1,0 +1,275 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+body {
+	text-align: center;
+}
+
+header{
+	height: 100px;
+	background: #dbdbdb;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+#banner{
+	width: 100%;
+	height: 300px;
+	position: fixed;
+	top: 100px;
+	background: #707070;
+}
+#banner2{
+	width: 100%;
+	height: 300px;
+	position: fixed;
+	top: 100px;
+	background: #707070;
+}
+#banner2 > img{
+	height: 300px;
+	width: 100%;
+}
+#contenido{
+	width: 100%;
+	position: relative;
+	top: 670px;
+	background: #ebebeb;
+	height: 3290px;
+	text-align: initial;
+}
+#contenido2{
+	width: 100%;
+	position: relative;
+	top: 400px;
+	background: #ebebeb;
+	height: 1300px;
+	text-align: initial;
+}
+#contenido3{
+	width: 100%;
+	position: relative;
+	top: 400px;
+	background: #ebebeb;
+	height: 1300px;
+	text-align: initial;
+}
+.headera{
+	width:100%;
+	overflow: hidden;
+	background:#000; 
+	margin-bottom:20px;
+	position: fixed;
+}
+.headera2{
+	width:100%;
+	top: 0;
+	overflow: hidden;
+	background:#000; 
+	margin-bottom:20px;
+	position: fixed;
+}
+.margen{
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+}
+header .logo{
+	color: #fff;
+	font-size:50px;
+	line-height:100px;
+	float:left;
+}
+header nav{
+	float: right;
+	line-height: 100px;
+}
+header nav a{
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	padding:10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover{
+	background:#f56f3a;
+	border-radius: 50px;
+}
+.lol:after{
+	content:"Registrar";
+	background: #4386FC;
+	padding:50px 20px;
+}
+header nav .lol:hover{
+	background: #000;
+	border-radius: 0px;
+}
+header nav .lon:hover{
+	background: #000;
+	border-radius: 0px;
+}
+.header3{
+	width:100%;
+	background:#000; 
+	margin-bottom:20px;
+}
+.lo{
+	width: 100%;
+	height: 100%;
+}
+.ref{ 
+	position: absolute;
+	top:30%;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	color:#A4A4A4;
+	font-size:100px;
+	text-align: center;
+}
+.ref1{
+	position: absolute;	
+top:30%;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+	color:#f2f2f2; opacity: 0.5;
+	font-size:100px;
+	text-align: center;
+}
+.ref2{
+	position: absolute;	
+	top:30%;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	color:#000;
+	font-size:100px;
+	text-align: center;
+}
+.contenido p{
+	margin-bottom: 1em;
+}
+.ja{
+	background: #4386FC;
+	padding:15px 20px;
+	color:#f2f2f2;
+	font-size:30px;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	box-shadow: 2px 2px 2px #888880;
+}
+.ja1{
+	background: #FF8000;
+	padding:15px 20px;
+	color:#f2f2f2;
+	font-size:30px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.ja2{
+	background: #FF0040;
+	padding:15px 20px;
+	color:#f2f2f2;
+	font-size:30px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.ja3{
+	background: #BF00FF;
+	padding:15px 20px;
+	color:#f2f2f2;
+	font-size:30px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.ja4{
+	background: #00FF00;
+	padding:15px 20px;
+	color:#f2f2f2;
+	font-size:30px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.ja:hover{
+	background: #5E8EE4;
+	color:#f2f2f2;
+	box-shadow: none;
+}
+.ja1:hover{
+	background: #FE9A2E;
+	color:#f2f2f2;
+	box-shadow: none;
+}
+.ja2:hover{
+	background: #FE2E9A;
+	color:#f2f2f2;
+	box-shadow: none;
+}
+.ja3:hover{
+	background: #CC2EFA;
+	color:#f2f2f2;
+	box-shadow: none;
+}
+.ja4:hover{
+	background: #2EFE2E;
+	color:#f2f2f2;
+	box-shadow: none;
+}
+.inf{
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.7);
+	top: 42%;
+	padding:15px 20px;
+	left: 30%;
+	position: absolute;
+	color: white;
+}
+.p1{
+	font-size: 50px;
+}
+.p2{
+	font-size: 30px;
+}
+.quien{
+	transform: translateX(10%);
+}
+.lala{
+	float: left;
+	transform: translateY(10%);
+}
+.lala-rev{
+	float: right;
+	transform: translateY(10%);
+}
+.jaja{
+	transform: translateX(2%);
+}
+.jaja-rev{
+	transform: translateX(-2%);
+}
+.carru1{
+	width: 400px;
+	float: left;
+}
+.desdearriba{
+	padding-top: 100px;
+}
